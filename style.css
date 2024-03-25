@@ -1,0 +1,168 @@
+/*Darpan patel 123*/
+html{
+    /* font shorthand 6 propteries
+        font-style - normal, italic, oblique
+        font-variant - normal, small-caps
+        font-weight - normal, bold, 100 - 900
+        font-size/line-height
+        font-family
+        times, "Times New Roman", Georgia, serif;  
+        "Lucida Console", Courier, monospace;
+    */
+    /*absolute units px*/
+    font : italic small-caps bold 20px/1.5 verdana, Arial, Helvetica, sans-serif;
+
+
+    color :brown; /* set text color to blue */
+
+}
+body{
+
+    width : 100%; /*% relative to parent element*/
+    max-width : 1250px; /*absolute units px*/
+    margin : auto 0; /*margin set to auto for right and left element*/
+    padding : 0.25rem; /*rem releative to root element font size*/
+
+
+}
+p{
+    color :red;
+    font-size : 12px;
+}
+
+h1{
+    color :darkcyan !important;
+
+}
+#header-heading{
+
+    color :blueviolet
+
+}
+.heading{
+    color :brown;
+
+}
+
+
+img, video, iframe{
+    width : 50%;
+    height : 50%; 
+
+}
+/*named colour*/
+/*6-HEX*/
+p{
+
+    color :#ffa500;
+}
+/*3-HEX*/
+p{
+    background-color: #fc9; /* same as #ffcc99 */
+    color:#b58; /* same as #bb5588 */
+}
+/*RGB red green blue*/
+p{
+    color: rgb(55,6,55);
+}
+/*RGBA alpha*/
+p{
+    color : rgba(255,99,71,0.9);
+
+}
+/*HSL hue saturation lightness*/
+p{
+    color:hsl(147,50%,47%)
+
+}
+/*HSLA alpha*/
+p{
+    color : hsla(9,100%,64%,0.6);
+}
+.nav-links {
+    list-style: none; /* remove bullet points */
+    text-decoration: none; /* remove text decoration */
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    color: blue; /* change font color */
+    display: inline-block;
+    width: 100px; /* adjust width */
+    text-align: center; /* center text */
+    padding: 10px; /* add padding */
+    margin: 5px; /* add margin */
+    background-color: blue; /* set background color same as font color */
+    border: 2px solid blue; /* add border */
+}
+
+.nav-links:hover {
+    color: blueviolet; /* reverse font color on hover */
+    background-color: transparent; /* reverse background color on hover */
+    border-color: blueviolet; /* reverse border color on hover */
+}
+
+/* Layout Adjustments */
+#nav {
+    float: left;
+    width: 50%;
+}
+
+#body {
+    float: left;
+    width: 70%;
+}
+
+#aside {
+    float: left;
+    width: 30%;
+}
+
+footer {
+    clear: both;
+}
+
+main {
+    float: left;
+    width: 70%;
+}
+
+aside {
+    float: left;
+    width: 30%;
+}
+
+section {
+    clear: both;
+}
+
+/* Headings */
+#aside h2 {
+    font-variant: small-caps;
+    color: brown;
+    text-align: center;
+}
+
+/* Table */
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black; /* add borders */
+    font-weight: bold;
+    font-style: italic;
+    font-variant: small-caps;
+    color: blue; /* change font color */
+    text-align: center; /* align center */
+}
+
+/* Links */
+a {
+    text-decoration: none; /* remove text decoration */
+    color: blue; /* change font color */
+    line-height: 1.5; /* increase line height */
+}
+
+a:hover {
+    color: blueviolet; /* change font color on hover */
+}
